@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ReadTheDocs_Data_Management'
+project = 'Guidelines for Research Data Management'
 copyright = '2026, Youpeng Zhang'
 author = 'Youpeng Zhang'
 
@@ -25,3 +25,6 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
